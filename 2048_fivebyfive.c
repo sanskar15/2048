@@ -195,7 +195,7 @@ int move(int input){				//This function executes the move
 
 
 int gameOver(){						// This function compares each element with its adjacent elements and 
-	int i,j;						// if all elements are different it will give sum of x and y equal to 50.
+	int i,j;						// if all elements are different it will give sum of x and y equal to 40.
 	int x,y=0;
 	for(i=0;i<=4;i++){
 		for( j =0;j<=4;j++){
